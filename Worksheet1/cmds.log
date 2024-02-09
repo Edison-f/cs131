@@ -1,0 +1,70 @@
+    1  ubuntu
+    2  uvuntu2004
+    3  ubuntu2004
+    4  ls
+    5  cd ../
+    6  ls
+    7  e:
+    8  cd C:ls
+    9  cd ../
+   10  ls
+   11  cd ../
+   12  exit
+   13  lls
+   14  ls
+   15  e:
+   16  cd ../
+   17  ls
+   18  cd edisonf/
+   19  ls
+   20  cd .landscape/
+   21  cd 
+   22  exit
+   23  cd mnt/c
+   24  cd /mnt/c
+   25  ls
+   26  cd Users/osgoo/
+   27  cd downloads
+   28  ls
+   29  cd svp4-linux.4.5.205-1/
+   30  ls
+   31  svp-linux-64.run
+   32  svp-linux-64
+   33  sudo
+   34  sudo -i
+   35  echo $SHELL
+   36  clear
+   37  mkdir
+   38  mkdir 131
+   39  cd 131
+   40  man more
+   41  max more
+   42  man more
+   43  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+   44  more spotify-2023.csv 
+   45  man more
+   46  less spotify-2023.csv 
+   47  man less
+   48  man tail
+   49  notepad
+   50  notepad spotify-2023.csv 
+   51  tail -f spotify-2023.csv 
+   52  man tail
+   53  nano
+   54  cat test.txt 
+   55  nano spotify-2023.csv 
+   56  cat spotify-2023.csv 
+   57  head spotify-2023.csv 
+   58  cat spotify-2023.csv 
+   59  nano spotify-2023.csv 
+   60  vi spotify-2023.csv 
+   61  cat spotify-2023.csv 
+   62  head spotify-2023.csv 
+   63  vi spotify-2023.csv 
+   64  man vi
+   65  vimtutor 
+   66  wget www.github.com
+   67  cd cs131/
+   68  mkdir Worksheet1
+   69  cd Worksheet1/
+   70  history > cmds.log
