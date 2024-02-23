@@ -1,0 +1,78 @@
+    1  ping 8.8.8.8
+    2  ls
+    3  pwdd
+    4  pwd
+    5  cd ../
+    6  ls
+    7  cd ../
+    8  ls
+    9  cd ../
+   10  ls
+   11  cd ../
+   12  ls
+   13  cd mnt/scratch/FA23_CS131_Ashish/edisonsp24/
+   14  ls
+   15  wget www.github.com
+   16  l
+   17  ls
+   18  cat index.html 
+   19  vi
+   20  passwd
+   21  exit
+   22  ping 172.20.25.9
+   23  r
+   24  python3
+   25  pwd
+   26  mkdir bruh
+   27  cd bruh/
+   28  git 
+   29  git clone https://github.com/Edison-f/cs131.git
+   30  ls
+   31  cd cs131/
+   32  mkdir bruh
+   33  git add -A
+   34  git commit -m "init"
+   35  exit
+   36  ls
+   37  cd bruh
+   38  ls
+   39  cd cs131/
+   40  ls
+   41  rmdir bruh
+   42  ls
+   43  mkdir Worksheet1
+   44  git diff master
+   45  exit
+   46  ls
+   47  ls bruh/
+   48  cd ../
+   49  rm -rf cs131
+   50  ls
+   51  cd edisonsp24/
+   52  ls
+   53  rm -rf bruh/
+   54  ls
+   55  rm index.html 
+   56  git clone https://github.com/Edison-f/cs131.git
+   57  ls
+   58  cd cs131/
+   59  mkdir Worksheet2
+   60  cd wo
+   61  cd Worksheet2
+   62  ls
+   63  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   64  grep -i "united states" Global\ YouTube\ Statistics.csv 
+   65  grep -i ",united states," Global\ YouTube\ Statistics.csv 
+   66  head Global\ YouTube\ Statistics.csv 
+   67  clear
+   68  head Global\ YouTube\ Statistics.csv 
+   69  grep -i ",united states,us" Global\ YouTube\ Statistics.csv 
+   70  grep -i ",music," Global\ YouTube\ Statistics.csv 
+   71  head Global\ YouTube\ Statistics.csv 
+   72  grep -i ",music," Global\ YouTube\ Statistics.csv | wc
+   73  grep -i ",music," Global\ YouTube\ Statistics.csv | wc > counts.txt
+   74  ls
+   75  man wc
+   76  vi
+   77  vi counts.txt 
+   78  history > cmds.log

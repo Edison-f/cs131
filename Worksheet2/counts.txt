@@ -1,0 +1,6 @@
+    236     824   45470
+# of newlines |     |
+              |     |
+       # of words   |
+                    |
+                 # of bytes
