@@ -1,0 +1,204 @@
+    1  ping 8.8.8.8
+    2  ls
+    3  pwdd
+    4  pwd
+    5  cd ../
+    6  ls
+    7  cd ../
+    8  ls
+    9  cd ../
+   10  ls
+   11  cd ../
+   12  ls
+   13  cd mnt/scratch/FA23_CS131_Ashish/edisonsp24/
+   14  ls
+   15  wget www.github.com
+   16  l
+   17  ls
+   18  cat index.html 
+   19  vi
+   20  passwd
+   21  exit
+   22  ping 172.20.25.9
+   23  r
+   24  python3
+   25  pwd
+   26  mkdir bruh
+   27  cd bruh/
+   28  git 
+   29  git clone https://github.com/Edison-f/cs131.git
+   30  ls
+   31  cd cs131/
+   32  mkdir bruh
+   33  git add -A
+   34  git commit -m "init"
+   35  exit
+   36  ls
+   37  cd bruh
+   38  ls
+   39  cd cs131/
+   40  ls
+   41  rmdir bruh
+   42  ls
+   43  mkdir Worksheet1
+   44  git diff master
+   45  exit
+   46  ls
+   47  ls bruh/
+   48  cd ../
+   49  rm -rf cs131
+   50  ls
+   51  cd edisonsp24/
+   52  ls
+   53  rm -rf bruh/
+   54  ls
+   55  rm index.html 
+   56  git clone https://github.com/Edison-f/cs131.git
+   57  ls
+   58  cd cs131/
+   59  mkdir Worksheet2
+   60  cd wo
+   61  cd Worksheet2
+   62  ls
+   63  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   64  grep -i "united states" Global\ YouTube\ Statistics.csv 
+   65  grep -i ",united states," Global\ YouTube\ Statistics.csv 
+   66  head Global\ YouTube\ Statistics.csv 
+   67  clear
+   68  head Global\ YouTube\ Statistics.csv 
+   69  grep -i ",united states,us" Global\ YouTube\ Statistics.csv 
+   70  grep -i ",music," Global\ YouTube\ Statistics.csv 
+   71  head Global\ YouTube\ Statistics.csv 
+   72  grep -i ",music," Global\ YouTube\ Statistics.csv | wc
+   73  grep -i ",music," Global\ YouTube\ Statistics.csv | wc > counts.txt
+   74  ls
+   75  man wc
+   76  vi
+   77  vi counts.txt 
+   78  history > cmds.log
+   79  cat hist
+   80  cat cmds.log 
+   81  git add -A
+   82  git status
+   83  git commit -m "Worksheet 2"
+   84  git config --global user.email "edison.fuh@sjsu.edu"
+   85  git config --global user.name "Edison-f"
+   86  git commit -m "Worksheet 2"
+   87  git push -u origin master
+   88  exit
+
+---=====---
+START OF ASSIGNMENT 1
+
+   89  ls
+   90  cd cs131/
+   91  lll
+   92  ll
+   93  ls -ltr
+   94  ls -latr
+
+1)
+
+   95  mkdir Assignment1
+
+
+   96  cd Assignment1/
+
+2.1)
+
+   97  echo $SHELL
+
+
+2.2)
+   98  echo $HOME
+
+
+3)
+   99  id edisonsp24
+
+
+  100  touch Assignment1.txt
+  101  ls
+  102  pwd
+  103  echo $SHELL > Assignment1.txt 
+  104  echo $HOME >> Assignment1.txt
+  105  id edisonsp24 >> Assignment1.txt 
+  106  cat Assignment1.txt 
+
+4 START)
+  
+  107  mkdir myDir
+  108  ls -latr
+  109  chmod myDir/ 572
+  110  chmod myDir 572
+  111  chmod .\myDir 572
+  112  man chmod
+  113  chmod 572 myDir
+  114  ls -latr
+  115  chmod 571 myDir
+  116  ls -latr
+  117  cd myDir
+  118  cd ..
+  119  ls
+  120  cd myDir/
+  121  touch test
+
+4 END)
+
+  122  cd ../
+
+5)
+
+  123  mkdir myDir2
+  124  mkdir myDir3
+  125  cd myDir2
+  126  touch myFile.txt
+  127  mv myFile.txt ../myDir3
+
+
+  128  cd ../myDir
+  129  cd ../myDir3
+  130  ls
+  131  cd ..
+  132  free
+  133  man free
+
+6)
+
+  134  free -m
+
+
+  135  free -m >> Assignment1.txt 
+  136  cd /
+  137  cd etc/
+  138  ls -latr
+
+9)
+  139  ls *os*
+  140  cat os-release 
+
+
+  141  cat os-release >> $HOME\cs131\Assignment1\Assignment1.txt
+  142  cat os-release >> \$HOME\cs131\Assignment1\Assignment1.txt
+  143  cat os-release >> $HOME\\cs131\Assignment1\Assignment1.txt
+  144  cat os-release >> $HOME\\cs131\\Assignment1\\Assignment1.txt
+  145  cat os-release >> $HOME/cs131/Assignment1/Assignment1.txt
+  146  cd home
+  147  cd $home
+  148  ls
+  149  cd cs131/
+  150  cd Assignment1/
+  151  ls
+  152  vi Assignment1.txt 
+  153  ls /etc/*os*
+
+10)
+
+  154  ls /etc/*os* -latr
+
+
+  155  vi Assignment1.txt 
+  156  ls /etc/*os* -latr
+  157  vi Assignment1.txt 
+  158  touch cmds.log
+  159  history > cmds.log
