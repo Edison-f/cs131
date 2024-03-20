@@ -1,0 +1,37 @@
+1a)
+With this command we are finding all files inside /etc and its subdirectories. one.txt contains all match│~ es, two.txt contains all errors, which in this case are denials of access.
+
+1b)
+one.txt contains all of the files found, two.txt contains all of the access denial messages.
+
+2)
+As per the Data set, Top 3 [Year, Month] with the most number of YouTube channels created were :
+12 2014,Aug      
+13 2014,Jul      
+15 2006,Mar
+The command used to find it was this:
+cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c -d | sort
+
+3)
+I would use ps aux | grep edison
+edisons+ 3433756  0.0  0.0  28608 14656 ?        Ss   19:32   0:00 /usr/lib/systemd/systemd --user 
+edisons+ 3433758  0.0  0.0 208512 10816 ?        S    19:32   0:00 (sd-pam) 
+edisons+ 3433766  0.0  0.0  49920 13568 ?        S    19:32   0:00 sshd: edisonsp24@pts/2 
+edisons+ 3433767  0.0  0.0  27712  8512 pts/2    Ss+  19:32   0:00 -bash 
+edisons+ 3439517  0.0  0.0  49280 10304 ?        S    19:48   0:00 sshd: edisonsp24@pts/4 
+edisons+ 3439520  0.0  0.0  27584  8192 pts/4    Ss   19:48   0:00 -bash 
+edisons+ 3440031  0.0  0.0  29568  8000 pts/4    R+   19:49   0:00 ps aux 
+edisons+ 3440032  0.0  0.0  12608  1792 pts/4    S+   19:49   0:00 grep --color=auto edisons+
+
+4b)
+PID was 3439943.
+
+4d)
+It dissapeared because vim was stopped by quitting.
+
+5)
+The init process handles login. The process id was 1.
+ps aux | grep systemd
+
+6)
+ps is the command used to look at what processes are running in a system, similar to task manager in Windows. The a potion removes the limit to only your processes, u adds more information, and x removes the limit of processes with an associated tty.

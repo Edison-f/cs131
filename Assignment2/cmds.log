@@ -1,0 +1,61 @@
+  175  cd cs131/
+  176  ls
+  177  mkdir Assignment2
+  178  cd Assignment
+  179  cd Assignment2
+  
+1a)
+  180  find /etc -type f > one.txt 2> two.txt
+With this command we are finding all files inside /etc and its subdirectories. one.txt contains all matches, two.txt contains all errors, which in this case are denials of access.  
+
+  181  head one.txt 
+  182  head two.txt 
+  183  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  184  man cut
+  185  head Global\ YouTube\ Statistics.csv 
+  186  cut -f 20 Global\ YouTube\ Statistics.csv 
+  187  cut -f 20 Global\ YouTube\ Statistics.csv | head
+  188  man cut
+  189  cut -d "," -f 20 Global\ YouTube\ Statistics.csv | head
+  190  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | head
+  191  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | sort
+  192  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c
+  193  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c | sort
+  194  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c | sort | head
+  195  man sort
+  196  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c | sort | head
+  197  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c | sort | tail
+  198  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv
+  199  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | head
+  200  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c
+  201  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | sort
+  202  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c
+  203  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c | sort
+  204  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c -i -u | sort
+  205  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c -i | sort
+  206  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | uniq -c -d | sort
+
+2)
+  207  cut -d "," -f 20-21 Global\ YouTube\ Statistics.csv | sort | uniq -c -d | sort
+  208  ls
+  209  vi temp
+  210  ps aux | grep edisonsp24
+  211  vi file.txt
+  212  vi cmds.log
+  213  history
+  
+3)
+  214  ps aux | grep edison
+  
+5)
+  215  ps aux | head
+  OR
+  216  ps aux | grep systemd
+  
+  217  history > cmds.log 
+  218  vi cmds.log   
+
+1b)
+  219  cat one.txt   
+  220  cat two.txt   
+  221  vi cmds.log
