@@ -18,6 +18,8 @@ Task 1 Start
   256  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",India,IN" | head -n 3 >> ws3.txt
   257  cat ws3.txt 
 Task 1 End
+^For task 1 I deleted the #2 and #3 results in vi because I thought the question was asking for the top 3 in each country
+
 
 Task 2 Start
   258  grep -E "^([^,]+,){4}Sports" Global\ YouTube\ Statistics.csv | sort -t "," -g -r -k 3,3 | head -n 3
