@@ -1,0 +1,35 @@
+  241  ls
+  242  cd cs131
+  243  ls
+  244  mkdir Worksheet3
+  245  cd Worksheet3
+  246  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  
+Task 1 Start
+  247  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | head -n 3
+  248  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",United States,US | head -n 3
+  249  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",United States,US" | head -n 3
+  250  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",United States,US" | head -n 3 > ws3.txt
+  251  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",United Kingdom,UK" | head -n 3
+  252  grep UK Global\ YouTube\ Statistics.csv 
+  253  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",United Kingdom,GB" | head -n 3
+  254  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",United Kingdom,GB" | head -n 3 >> ws3.txt
+  255  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",India,IN" | head -n 3
+  256  sort -t ',' -g -r -k 16,16 Global\ YouTube\ Statistics.csv | grep ",India,IN" | head -n 3 >> ws3.txt
+  257  cat ws3.txt 
+Task 1 End
+
+Task 2 Start
+  258  grep -E "^([^,]+,){4}Sports" Global\ YouTube\ Statistics.csv | sort -t "," -g -r -k 3,3 | head -n 3
+  259  grep -E "^([^,]+,){4}Sports" Global\ YouTube\ Statistics.csv | sort -t "," -g -r -k 3,3 | head -n 3 >> ws3.txt
+  260  grep -E "^([^,]+,){4}Education" Global\ YouTube\ Statistics.csv | sort -t "," -g -r -k 3,3 | head -n 3 >> ws3.txt
+  261  grep -E "^([^,]+,){4}Entertainment" Global\ YouTube\ Statistics.csv | sort -t "," -g -r -k 3,3 | head -n 3 >> ws3.txt
+  262  cat ws3.txt 
+  263  vi ws3.txt 
+  264  grep -E "^([^,]+,){4}Sports" Global\ YouTube\ Statistics.csv | sort -t "," -g -r -k 3,3 | head -n 1 >> ws3.txt
+  265  grep -E "^([^,]+,){4}Education" Global\ YouTube\ Statistics.csv | sort -t "," -g -r -k 3,3 | head -n 1 >> ws3.txt
+  266  grep -E "^([^,]+,){4}Entertainment" Global\ YouTube\ Statistics.csv | sort -t "," -g -r -k 3,3 | head -n 1 >> ws3.txt
+Task 2 End
+
+  267  vi ws3.txt 
+  268  history > cmds.log
